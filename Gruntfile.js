@@ -1,3 +1,4 @@
+(function() {
 // Generated on 2021-01-26 using generator-angular 0.16.0
 'use strict';
 
@@ -9,7 +10,7 @@
 
 module.exports = function (grunt) {
 
-  grunt.loadNpmTasks(‘grunt-build-control’);
+  //grunt.loadNpmTasks(‘grunt-build-control’);
   var pkg = require('./package.json');
 
   // Time how long tasks take. Can help when optimizing build times
@@ -434,7 +435,7 @@ module.exports = function (grunt) {
       },
       heroku: {
         options: {
-          remote: 'git@heroku.com:eitiyamamoto/heroku-test.git',
+          remote: 'git@heroku.com:radiant-basin-74224.git',
           branch: 'master',
           tag: pkg.version
         }
@@ -511,3 +512,5 @@ module.exports = function (grunt) {
     'build'
   ]);
 };
+
+})();
